@@ -1,0 +1,36 @@
+.publicity-column{
+	display: block;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background: #E2E2E2;
+}
+.publicity-column ul{
+	margin: 0;
+	padding: 0;
+	display: block;
+	width: 100%;
+	list-style: none;
+	height: 30px;
+	overflow: hidden;
+}
+.publicity-column ul li{
+	margin:  0;
+	padding: 0;
+	line-height: 30px;
+	height: 100%;
+	font-size: 15px;
+	text-indent: 1em;
+	width: 100%;
+	overflow: hidden;
+	-o-text-overflow: ellipsis;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+
+}
+.publicity-column ul li a{
+	text-decoration: none;
+}
